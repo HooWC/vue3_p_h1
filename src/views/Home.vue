@@ -229,7 +229,7 @@ const quickStartSteps = [
   grid-template-columns: 1fr 1fr;
   gap: 4rem;
   align-items: center;
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 0 auto;
   padding: 0 2rem;
   position: relative;
@@ -402,7 +402,7 @@ const quickStartSteps = [
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 2rem;
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 0 auto;
   padding: 0 2rem;
 }
@@ -459,7 +459,7 @@ const quickStartSteps = [
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 2rem;
-  max-width: 1000px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 0 2rem;
 }
@@ -495,7 +495,7 @@ const quickStartSteps = [
 .steps-container {
   display: grid;
   gap: 2rem;
-  max-width: 800px;
+  max-width: 1000px;
   margin: 0 auto;
   padding: 0 2rem;
 }

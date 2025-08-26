@@ -313,7 +313,7 @@ onMounted(() => {
 
 <style scoped>
 .users-page {
-  space-y: 2rem;
+  width: 100%;
 }
 
 /* 页面头部 */
@@ -423,9 +423,21 @@ select:focus {
 /* 统计卡片 */
 .stats-cards {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(3, 1fr);
   gap: 1.5rem;
   margin-bottom: 2rem;
+}
+
+@media (max-width: 768px) {
+  .stats-cards {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 1024px) and (min-width: 769px) {
+  .stats-cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 .stat-card {
@@ -616,10 +628,6 @@ select:focus {
   }
   
   .filters-grid {
-    grid-template-columns: 1fr;
-  }
-  
-  .stats-cards {
     grid-template-columns: 1fr;
   }
   

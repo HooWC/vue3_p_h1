@@ -358,8 +358,7 @@ document.addEventListener('click', () => {
 
 <style scoped>
 .user-detail-page {
-  max-width: 1200px;
-  margin: 0 auto;
+  width: 100%;
 }
 
 /* 状态组件样式复用 */

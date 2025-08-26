@@ -217,8 +217,7 @@ onUnmounted(() => {
   justify-content: space-between;
   height: 100%;
   padding: 0 2rem;
-  max-width: 1400px;
-  margin: 0 auto;
+  width: 100%;
 }
 
 .header-left {

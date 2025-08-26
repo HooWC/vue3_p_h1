@@ -415,8 +415,7 @@ onMounted(() => {
 
 <style scoped>
 .about-page {
-  max-width: 1200px;
-  margin: 0 auto;
+  width: 100%;
 }
 
 /* 英雄区域 */
@@ -518,7 +517,7 @@ section {
 .section-header p {
   font-size: 1.125rem;
   color: var(--text-secondary);
-  max-width: 600px;
+  max-width: 800px;
   margin: 0 auto;
 }
 
@@ -768,7 +767,7 @@ section {
 
 /* 时间线 */
 .timeline {
-  max-width: 800px;
+  max-width: 1000px;
   margin: 0 auto;
 }
 
